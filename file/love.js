@@ -168,7 +168,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("NOURENA, IF YOU'RE SEEING THIS. I'M LOOKING FOR YOU. MY INSTAGRAM IS themahmoudelian AND MY PHONR NUMBER IS +201026556762");
+            ctx.fillText("NOURENA, IF YOU'RE SEEING THIS. I'M LOOKING FOR YOU. MY INSTAGRAM", 30, -5);
+            ctx.fillText("IS themahmoudelian AND MY PHONR NUMBER IS +201026556762", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -700,7 +701,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("NOURENA, IF YOU'RE SEEING THIS. I'M LOOKING FOR YOU. MY INSTAGRAM IS themahmoudelian AND MY PHONR NUMBER IS +201026556762");
+            ctx.fillText("NOURENA, IF YOU'RE SEEING THIS. I'M LOOKING FOR YOU. MY INSTAGRAM", 30, -5);
+            ctx.fillText("IS themahmoudelian AND MY PHONR NUMBER IS +201026556762", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -1063,5 +1065,6 @@
 
 
 })(window);
+
 
 
