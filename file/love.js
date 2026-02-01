@@ -170,6 +170,7 @@
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
             ctx.fillText("Click Me:) ", 30, -5);
             ctx.fillText("Birthday Queen, Nouran !", 28, 10);
+            ctx.fillText("NOURENA, IF YOU'RE SEEING THIS. I'M LOOKING FOR YOU. MY INSTAGRAM IS themahmoudelian AND MY PHONR NUMBER IS +201026556762", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -703,6 +704,7 @@
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
             ctx.fillText("Click Me:) ", 30, -5);
             ctx.fillText("Birthday Queen, Nouran !", 28, 10);
+            ctx.fillText("NOURENA, IF YOU'RE SEEING THIS. I'M LOOKING FOR YOU. MY INSTAGRAM IS themahmoudelian AND MY PHONR NUMBER IS +201026556762", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -1062,5 +1064,6 @@
     window.bezier = bezier;
     window.Point = Point;
     window.Tree = Tree;
+
 
 })(window);
